@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mood Makan Gen Z</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --orange:#ff8a00;
+      --green:#1fb9a5;
+      --cream:#fff6eb;
+      --dark:#2b2b2b;
+    }
+
+    *{box-sizing:border-box;margin:0;padding:0}
+    body{
+      font-family:'Poppins',sans-serif;
+      background:var(--cream);
+      color:var(--dark);
+      line-height:1.6;
+    }
+    a{text-decoration:none;color:inherit}
+
+    header{
+      background:#fff;
+      padding:16px 24px;
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+      box-shadow:0 4px 10px rgba(0,0,0,.05);
+      position:sticky;top:0;z-index:10;
+    }
+    nav a{
+      margin-left:16px;
+      font-weight:600;
+    }
+
+    .container{max-width:1100px;margin:auto;padding:40px 20px}
+
+    .hero{
+      display:grid;
+      grid-template-columns:1fr;
+      gap:24px;
+      text-align:center;
+    }
+    .hero h1{
+      font-size:2.2rem;
+      font-weight:700;
+    }
+    .hero p{font-size:1.05rem}
+
+    .btn{
+      display:inline-block;
+      padding:14px 26px;
+      border-radius:30px;
+      font-weight:600;
+      margin:8px;
+    }
+    .btn-primary{background:var(--orange);color:#fff}
+    .btn-secondary{background:var(--green);color:#fff}
+
+    section{margin-top:60px}
+
+    .features{
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+      gap:20px;
+      text-align:center;
+    }
+    .card{
+      background:#fff;
+      padding:24px;
+      border-radius:20px;
+      box-shadow:0 6px 20px rgba(0,0,0,.06);
+    }
+
+    .linkbio a{
+      display:block;
+      background:#fff;
+      margin:12px auto;
+      padding:16px;
+      border-radius:30px;
+      max-width:400px;
+      font-weight:600;
+      box-shadow:0 4px 12px rgba(0,0,0,.06);
+    }
+
+    footer{
+      background:#fff;
+      padding:30px 20px;
+      text-align:center;
+      margin-top:80px;
+      font-size:.9rem;
+    }
+
+    @media(min-width:768px){
+      .hero{grid-template-columns:1fr 1fr;text-align:left;align-items:center}
+      .hero h1{font-size:2.8rem}
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <strong>moodmakan.genz</strong>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#ebook">E-Book</a>
+    <a href="#about">About</a>
+  </nav>
+</header>
+
+<main class="container">
+
+  <!-- HOME -->
+  <section id="home" class="hero">
+    <div>
+      <h1>Masak Enak, Jualan Jalan, Cuan Ngalir</h1>
+      <p>Resep viral Gen Z & dewasa muda. Simple dibuat, realistis dijual, dan relevan sama pasar sekarang.</p>
+      <a href="#ebook" class="btn btn-primary">Lihat E-Book</a>
+      <a href="https://wa.me/6285198187986" class="btn btn-secondary">Chat WhatsApp</a>
+    </div>
+    <div>
+      <img src="ChatGPT Image Dec 28, 2025, 07_46_24 AM" alt="Mood Makan Gen Z" style="max-width:100%">
+    </div>
+  </section>
+
+  <!-- FEATURES -->
+  <section class="features">
+    <div class="card">🍳 Resep mudah & anti ribet</div>
+    <div class="card">🔥 Menu viral & marketable</div>
+    <div class="card">🛒 Bahan gampang dicari</div>
+    <div class="card">💰 Cocok jualan rumahan</div>
+  </section>
+
+  <!-- LINK BIO -->
+  <section class="linkbio">
+    <a href="#ebook">📘 E-Book Resep Viral</a>
+    <a href="https://instagram.com/moodmakan.genz">📷 Instagram</a>
+    <a href="#">🎵 TikTok</a>
+    <a href="mailto:moodmakan.genz@gmail.com">📧 Email</a>
+  </section>
+
+  <!-- EBOOK -->
+  <section id="ebook">
+    <h2>E-Book Resep Viral Mood Makan Gen Z</h2>
+    <p>Capek coba resep tapi nggak laku? E-book ini disusun dari menu yang beneran diminati pasar.</p>
+    <ul>
+      <li>Menu viral Gen Z & dewasa</li>
+      <li>Camilan pedas & manis</li>
+      <li>Modal kecil & hemat</li>
+      <li>Step-by-step jelas</li>
+    </ul>
+    <a href="https://lynk.id/moodmakan" class="btn btn-primary">Beli Sekarang</a>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <h2>Tentang Mood Makan Gen Z</h2>
+    <p>Mood Makan Gen Z dibuat untuk bantu kamu masak tanpa ribet dan jualan dengan peluang nyata.</p>
+    <p><strong>Visi:</strong> Bikin masak menyenangkan dan dapur jadi sumber penghasilan.</p>
+  </section>
+
+</main>
+
+<footer>
+  <p>© moodmakan.genz</p>
+  <p>Instagram: @moodmakan.genz | Email: moodmakan.genz@gmail.com</p>
+</footer>
+
+</body>
+</html>
